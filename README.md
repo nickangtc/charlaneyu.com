@@ -4,10 +4,14 @@ Source code for the revamped charlaneyu.com, ported from WordPress (hosted for $
 
 Copyright: Everything content-wise is copyright Charlane Yu. Code-wise, you are free to do what you want with it! Maybe drop me a tweet to let me know what you did with it so I can check it out! :) 
 
-## Technical choices
+## Technical decisions
 
-Scaffolded using Create React App.
+Scaffolded using **Create React App** so I don't have to fiddle forever with the build tooling.
+
+**Tailwind CSS** for applying CSS without writing much of my own. Mainly to try it out but also to save time in pixelcraft.
 
 ## Milestones
 
-- started work on 10 August 2022
+- broke ground 10 August 2022
+- first deployment to Netlify at https://charlaneyu.netlify.app/
+- learned the philosophy of TailwindCSS in 100 seconds with [this vid](https://www.youtube.com/watch?v=mr15Xzb1Ook)
