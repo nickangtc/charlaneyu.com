@@ -18,6 +18,12 @@ Deploy to Netlify (only works if you're logged in to my account):
 $ git push
 ```
 
+## Usage 
+
+### Re-ordering Images
+
+Edit src/assets/assets.json. The array ordering determines which image gets loaded first.
+
 ## Technical decisions
 
 Scaffolded using **Create React App** so I don't have to fiddle forever with the build tooling.

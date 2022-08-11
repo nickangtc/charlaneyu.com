@@ -1,0 +1,16 @@
+{
+  "front-page-images": [
+    {
+      "name": "demo1.jpeg",
+      "alt": "Alt text"
+    },
+    {
+      "name": "demo99.jpeg",
+      "alt": "Alt text"
+    },
+    {
+      "name": "demo2.jpeg",
+      "alt": "Alt text"
+    }
+  ]
+}
