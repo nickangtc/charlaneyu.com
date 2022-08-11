@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { Routes, Route, Link } from "react-router-dom";
 import "./App.css";
 import assets from "./assets/assets.json";
 
@@ -45,6 +46,53 @@ function Slideshow({ children }) {
 }
 
 function App() {
+  return (
+    <div>
+      <header className="p-5">
+        <h1 className="text-3xl text-center font-serif">Charlane Yu</h1>
+        <p className="text-center font-thin">Makeup & Hairstyling Berlin</p>
+      </header>
+
+      <nav className="flex flex-row justify-center border-2 border-l-0 border-r-0 min-h-full pt-3 pb-3">
+        <Link className="px-5 inline-block" to="/">
+          Home
+        </Link>
+        <Link className="px-5 inline-block" to="/blog">
+          Blog
+        </Link>
+        <Link className="px-5 inline-block" to="/about">
+          About
+        </Link>
+        <Link className="px-5 inline-block" to="/gallery">
+          Gallery (v)
+        </Link>
+        <Link
+          className="px-5 inline-block"
+          to="/destinations-weddings-photoshoots"
+        >
+          Destinations
+        </Link>
+        <Link className="px-5 inline-block" to="/contact">
+          Contact
+        </Link>
+      </nav>
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="blog" element={<Blog />} />
+        <Route path="about" element={<About />} />
+        <Route path="gallery" element={<Gallery />} />
+        <Route
+          path="destinations-weddings-photoshoots"
+          element={<Destinations />}
+        />
+        <Route path="contact" element={<Contact />} />
+      </Routes>
+    </div>
+  );
+}
+
+function Home() {
   const MAX_IMAGES_TO_SHOW = 8;
   const FOLDER_NAME = "front-page-images";
 
@@ -61,31 +109,34 @@ function App() {
   );
 
   return (
-    <div>
-      <header className="p-5">
-        <h1 className="text-3xl text-center font-serif">Charlane Yu</h1>
-        <p className="text-center font-thin">Makeup & Hairstyling Berlin</p>
-      </header>
-
-      <nav className="flex flex-row justify-center border-2 border-l-0 border-r-0 min-h-full pt-3 pb-3">
-        <ul className="flex flex-row justify-around">
-          <li className="px-5 inline-block">Home</li>
-          <li className="px-5 inline-block">Blog</li>
-          <li className="px-5 inline-block">About</li>
-          <li className="px-5 inline-block">Gallery (v)</li>
-          <li className="px-5 inline-block">Destinations</li>
-          <li className="px-5 inline-block">Contact</li>
-        </ul>
-      </nav>
-
+    <>
       <Slideshow>{images}</Slideshow>
-
       <p className="text-center text-3xl mb-5 italic font-serif">
         Love of beauty is taste. The creation of beauty is art.
       </p>
       <p className="text-center text-lg mb-10">Ralph Waldo Emerson</p>
-    </div>
+    </>
   );
+}
+
+function About() {
+  return <p>ABOUT TO COME</p>;
+}
+
+function Contact() {
+  return <p>Contact form</p>;
+}
+
+function Blog() {
+  return <p>Markdown files converted to HTML?</p>;
+}
+
+function Destinations() {
+  return <p>Oh this one has a dropdown menu... what to show here?</p>;
+}
+
+function Gallery() {
+  return <p>Gallery of photos!</p>;
 }
 
 export default App;
