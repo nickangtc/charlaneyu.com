@@ -3,17 +3,7 @@ import { Routes, Route, Link } from "react-router-dom";
 import "./App.css";
 import assets from "./assets/assets.json";
 import About from "./About";
-
-function Image({ path }) {
-  // todo: normalise path by removing './' and '/'
-  try {
-    const image = require(`./assets/${path}`);
-    if (!image) return null;
-    return <img src={image} alt={image} />;
-  } catch (error) {
-    console.error(`Image with path ${path} couldn't be found!`);
-  }
-}
+import Image from "./shared-components/Image";
 
 function Slideshow({ children }) {
   const [currentIndex, setCurrentIndex] = React.useState(0);
