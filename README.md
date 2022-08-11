@@ -30,8 +30,11 @@ Scaffolded using **Create React App** so I don't have to fiddle forever with the
 
 **Tailwind CSS** for applying CSS without writing much of my own. Mainly to try it out but also to save time in pixelcraft.
 
+Lazy-load images for Gallery page based on y-scrolling. Pre-load all images for front page slideshow for best experience.
+
 ## Milestones
 
 - broke ground 10 August 2022
 - first deployment to Netlify at https://charlaneyu.netlify.app/
 - learned the philosophy of TailwindCSS in 100 seconds with [this vid](https://www.youtube.com/watch?v=mr15Xzb1Ook)
+- proved concept of loading images dynamically with static React site using `require()` and JSON

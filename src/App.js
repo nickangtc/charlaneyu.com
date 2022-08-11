@@ -26,6 +26,7 @@ function App() {
     });
 
   function appendNewImage() {
+    // remember to guard against index > total number of images
     setLastLoadedImageIndex(lastLoadedImageIndex + 1);
   }
 
