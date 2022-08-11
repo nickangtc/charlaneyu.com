@@ -4,6 +4,10 @@ Source code for the revamped charlaneyu.com, ported from WordPress (hosted for $
 
 Copyright: Everything content-wise is copyright Charlane Yu. Code-wise, you are free to do what you want with it! Maybe drop me a tweet to let me know what you did with it so I can check it out! :) 
 
+## Unknowns 🤔
+
+- ⚡️ Is Netlify configured to run `npm run build` and serve the production-optimised build?
+
 ## Development
 
 Start local dev server with hot reload:

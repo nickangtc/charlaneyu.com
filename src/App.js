@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route, NavLink } from "react-router-dom";
 import "./App.css";
 import assets from "./assets/assets.json";
 import About from "./About";
@@ -36,37 +36,48 @@ function Slideshow({ children }) {
   );
 }
 
+function Header() {
+  return (
+    <header className="p-5">
+      <h1 className="text-center">Charlane Yu</h1>
+      <p className="text-center font-thin">Makeup & Hairstyling Berlin</p>
+    </header>
+  );
+}
+
+function Nav() {
+  return (
+    <nav className="flex flex-row justify-center border-2 border-l-0 border-r-0 min-h-full pt-3 pb-3">
+      <NavLink className="px-5 inline-block" to="/">
+        Home
+      </NavLink>
+      <NavLink className="px-5 inline-block" to="/blog">
+        Blog
+      </NavLink>
+      <NavLink className="px-5 inline-block" to="/about">
+        About
+      </NavLink>
+      <NavLink className="px-5 inline-block" to="/gallery">
+        Gallery (v)
+      </NavLink>
+      <NavLink
+        className="px-5 inline-block"
+        to="/destinations-weddings-photoshoots"
+      >
+        Destinations
+      </NavLink>
+      <NavLink className="px-5 inline-block" to="/contact">
+        Contact
+      </NavLink>
+    </nav>
+  );
+}
+
 function App() {
   return (
     <div>
-      <header className="p-5">
-        <h1 className="text-center">Charlane Yu</h1>
-        <p className="text-center font-thin">Makeup & Hairstyling Berlin</p>
-      </header>
-
-      <nav className="flex flex-row justify-center border-2 border-l-0 border-r-0 min-h-full pt-3 pb-3">
-        <Link className="px-5 inline-block" to="/">
-          Home
-        </Link>
-        <Link className="px-5 inline-block" to="/blog">
-          Blog
-        </Link>
-        <Link className="px-5 inline-block" to="/about">
-          About
-        </Link>
-        <Link className="px-5 inline-block" to="/gallery">
-          Gallery (v)
-        </Link>
-        <Link
-          className="px-5 inline-block"
-          to="/destinations-weddings-photoshoots"
-        >
-          Destinations
-        </Link>
-        <Link className="px-5 inline-block" to="/contact">
-          Contact
-        </Link>
-      </nav>
+      <Header />
+      <Nav />
 
       <Routes>
         <Route path="/" element={<Home />} />
