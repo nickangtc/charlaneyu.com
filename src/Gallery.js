@@ -21,10 +21,10 @@ function Gallery() {
     numberOfImagesOnInitialPageLoad - 1
   );
 
-  const images = assets["front-page-images"]
+  const images = assets["home"]
     .slice(0, lastLoadedImageIndex)
     .map((file, index) => {
-      return <Image path={`front-page-images/${file.name}`} key={index} />;
+      return <Image path={`home/${file.name}`} key={index} />;
     });
 
   function appendNewImage() {

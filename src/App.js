@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { Routes, Route, Link } from "react-router-dom";
 import "./App.css";
 import assets from "./assets/assets.json";
+import About from "./About";
 
 function Image({ path }) {
   // todo: normalise path by removing './' and '/'
@@ -49,7 +50,7 @@ function App() {
   return (
     <div>
       <header className="p-5">
-        <h1 className="text-3xl text-center font-serif">Charlane Yu</h1>
+        <h1 className="text-center">Charlane Yu</h1>
         <p className="text-center font-thin">Makeup & Hairstyling Berlin</p>
       </header>
 
@@ -94,33 +95,25 @@ function App() {
 
 function Home() {
   const MAX_IMAGES_TO_SHOW = 8;
-  const FOLDER_NAME = "front-page-images";
+  const FOLDER_NAME = "home";
 
   const images = assets[FOLDER_NAME].slice(0, MAX_IMAGES_TO_SHOW - 1).map(
     (file, index) => {
       return (
-        <Image
-          path={`front-page-images/${file.name}`}
-          key={index}
-          className="w-full"
-        />
+        <Image path={`home/${file.name}`} key={index} className="w-full" />
       );
     }
   );
 
   return (
-    <>
+    <div className="container pl-4 pr-4">
       <Slideshow>{images}</Slideshow>
       <p className="text-center text-3xl mb-5 italic font-serif">
         Love of beauty is taste. The creation of beauty is art.
       </p>
       <p className="text-center text-lg mb-10">Ralph Waldo Emerson</p>
-    </>
+    </div>
   );
-}
-
-function About() {
-  return <p>ABOUT TO COME</p>;
 }
 
 function Contact() {

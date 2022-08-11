@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  a {
+    @apply text-yellow-600;
+  }
+
+  p, img, figure, h1, h2, h3, h4, h5, h6 {
+    @apply mb-5;
+  }
+
+  h1 {
+    @apply text-3xl font-serif font-extralight leading-tight mb-5;
+  }
+}
