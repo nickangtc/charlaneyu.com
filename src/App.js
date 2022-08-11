@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./App.css";
 import assets from "./assets/assets.json";
 
@@ -13,22 +13,52 @@ function Image({ path }) {
   }
 }
 
-function App() {
-  const numberOfImagesOnInitialPageLoad = 2;
-  const [lastLoadedImageIndex, setLastLoadedImageIndex] = React.useState(
-    numberOfImagesOnInitialPageLoad - 1
-  );
+function Slideshow({ children }) {
+  const [currentIndex, setCurrentIndex] = React.useState(0);
+  const intervalRef = React.useRef(null);
 
-  const images = assets["front-page-images"]
-    .slice(0, lastLoadedImageIndex)
-    .map((file, index) => {
-      return <Image path={`front-page-images/${file.name}`} key={index} />;
-    });
+  useEffect(() => {
+    intervalRef.current = setInterval(() => {
+      setCurrentIndex(nextIndex());
+    }, 2000);
+    return () => clearInterval(intervalRef.current);
+  });
 
-  function appendNewImage() {
-    // remember to guard against index > total number of images
-    setLastLoadedImageIndex(lastLoadedImageIndex + 1);
+  function handleClickToNextImage() {
+    clearInterval(intervalRef.current);
+    setCurrentIndex(nextIndex());
   }
+
+  function nextIndex() {
+    return currentIndex + 1 === children.length ? 0 : currentIndex + 1;
+  }
+
+  return (
+    // todo: min height needs to stay consistent to prevent jumpy UI when images have different dimensions
+    <div
+      className="container max-w-5xl mt-10 mb-10 h-auto"
+      onClick={handleClickToNextImage}
+    >
+      {children[currentIndex]}
+    </div>
+  );
+}
+
+function App() {
+  const MAX_IMAGES_TO_SHOW = 8;
+  const FOLDER_NAME = "front-page-images";
+
+  const images = assets[FOLDER_NAME].slice(0, MAX_IMAGES_TO_SHOW - 1).map(
+    (file, index) => {
+      return (
+        <Image
+          path={`front-page-images/${file.name}`}
+          key={index}
+          className="w-full"
+        />
+      );
+    }
+  );
 
   return (
     <div>
@@ -48,22 +78,12 @@ function App() {
         </ul>
       </nav>
 
-      <div className="flex justify-center pt-10 pb-10">
-        <p>AUTO SCROLL PHOTO GALLERY HERE</p>
-      </div>
+      <Slideshow>{images}</Slideshow>
 
-      <figure className="text-center">
-        <blockquote>
-          <p>Love of beauty is taste. The creation of beauty is art.</p>
-        </blockquote>
-        <cite className="text-sm">Ralph Waldo Emerson</cite>
-      </figure>
-
-      <button onClick={appendNewImage} className="rounded-full bg-blue-300">
-        Append new image
-      </button>
-
-      {images}
+      <p className="text-center text-3xl mb-5 italic font-serif">
+        Love of beauty is taste. The creation of beauty is art.
+      </p>
+      <p className="text-center text-lg mb-10">Ralph Waldo Emerson</p>
     </div>
   );
 }
