@@ -39,7 +39,7 @@ function Slideshow({ children }) {
 function Header() {
   return (
     <header className="p-5">
-      <h1 className="text-center">Charlane Yu</h1>
+      <h1 className="text-center mb-0">Charlane Yu</h1>
       <p className="text-center font-thin">Makeup & Hairstyling Berlin</p>
     </header>
   );
@@ -73,23 +73,44 @@ function Nav() {
   );
 }
 
+function Footer() {
+  return (
+    <div className="container-full text-center bg-slate-100 py-6">
+      <a className="px-3" href="https://www.facebook.com/makeupcharlaneyu/">
+        FacebookLogo
+      </a>
+      <a className="px-3" href="https://www.instagram.com/charlane_yu/">
+        IGLogo
+      </a>
+      <p className="text-sm mt-3 text-stone-500">
+        Copyright 2022 Charlane Yu | Designed by Nick Ang
+      </p>
+    </div>
+  );
+}
+
 function App() {
   return (
-    <div>
-      <Header />
-      <Nav />
+    <div className="min-h-screen flex flex-col">
+      {/* wrapper to enable sticky footer */}
+      <div className="flex-1">
+        <Header />
+        <Nav />
 
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="blog" element={<Blog />} />
-        <Route path="about" element={<About />} />
-        <Route path="gallery" element={<Gallery />} />
-        <Route
-          path="destinations-weddings-photoshoots"
-          element={<Destinations />}
-        />
-        <Route path="contact" element={<Contact />} />
-      </Routes>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="blog" element={<Blog />} />
+          <Route path="about" element={<About />} />
+          <Route path="gallery" element={<Gallery />} />
+          <Route
+            path="destinations-weddings-photoshoots"
+            element={<Destinations />}
+          />
+          <Route path="contact" element={<Contact />} />
+        </Routes>
+      </div>
+
+      <Footer />
     </div>
   );
 }

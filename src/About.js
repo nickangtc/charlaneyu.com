@@ -3,7 +3,7 @@ const ABOUT_IMAGE = require("./assets/about/charlane-yu-makeup-artist-about.webp
 
 function About() {
   return (
-    <div className="container pl-40 pr-40 mt-16">
+    <div className="container px-40 py-10">
       <figure>
         <img
           src={ABOUT_IMAGE}
@@ -67,7 +67,7 @@ function About() {
         Thank you for reading and considering my service.&nbsp;I give my
         sincerest blessings to you on your big day!
       </p>
-      <hr />
+      <p className="text-center">* * *</p>
       <p>
         I'm currently accepting makeup and hairstyling jobs for{" "}
         <strong>destination photoshoots and weddings in Europe</strong>.
