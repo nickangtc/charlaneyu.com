@@ -4,6 +4,20 @@ Source code for the revamped charlaneyu.com, ported from WordPress (hosted for $
 
 Copyright: Everything content-wise is copyright Charlane Yu. Code-wise, you are free to do what you want with it! Maybe drop me a tweet to let me know what you did with it so I can check it out! :) 
 
+## Development
+
+Start local dev server with hot reload:
+
+```s
+$ npm start
+```
+
+Deploy to Netlify (only works if you're logged in to my account):
+
+```s
+$ git push
+```
+
 ## Technical decisions
 
 Scaffolded using **Create React App** so I don't have to fiddle forever with the build tooling.
