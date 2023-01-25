@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-const ABOUT_IMAGE = require("./assets/about/charlane-yu-makeup-artist-about.webp");
+const ABOUT_IMAGE = require("../assets/about/charlane-yu-makeup-artist-about.webp");
 
 function About() {
   return (

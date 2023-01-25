@@ -1,8 +1,9 @@
 import React from "react";
 import { Routes, Route, NavLink } from "react-router-dom";
 import "./App.css";
-import About from "./About";
+import About from "./pages/About";
 import Home from "./pages/Home";
+import Blog from "./pages/Blog";
 
 function Header() {
   return (
@@ -85,10 +86,6 @@ function App() {
 
 function Contact() {
   return <p>Contact form</p>;
-}
-
-function Blog() {
-  return <p>Markdown files converted to HTML?</p>;
 }
 
 function Destinations() {
