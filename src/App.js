@@ -4,6 +4,7 @@ import "./App.css";
 import About from "./pages/About";
 import Home from "./pages/Home";
 import Blog from "./pages/Blog";
+import Gallery from "./pages/Gallery";
 
 function Header() {
   return (
@@ -14,6 +15,7 @@ function Header() {
   );
 }
 
+// TODO: Make this component stack on mobile
 function Nav() {
   return (
     <nav className="flex flex-row justify-center border-2 border-l-0 border-r-0 min-h-full pt-3 pb-3">
@@ -90,10 +92,6 @@ function Contact() {
 
 function Destinations() {
   return <p>Oh this one has a dropdown menu... what to show here?</p>;
-}
-
-function Gallery() {
-  return <p>Gallery of photos!</p>;
 }
 
 export default App;
