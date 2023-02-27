@@ -3,7 +3,7 @@ import { Routes, Route, NavLink } from "react-router-dom";
 import "./App.css";
 import About from "./pages/About";
 import Home from "./pages/Home";
-import Blog from "./pages/Blog";
+// import Blog from "./pages/Blog";
 import Gallery from "./pages/Gallery";
 import Contact from "./pages/Contact";
 
@@ -30,7 +30,7 @@ function Nav() {
         About
       </NavLink>
       <NavLink className="px-5 inline-block" to="/gallery">
-        Gallery (v)
+        Gallery
       </NavLink>
       <NavLink
         className="px-5 inline-block"
@@ -90,7 +90,7 @@ function App() {
 function Destinations() {
   return (
     <div className="container px-40 py-10">
-      <p className="text-center">Also coming soon!</p>
+      <p className="text-center">Coming soon: galleries per destination!</p>
     </div>
   );
 }

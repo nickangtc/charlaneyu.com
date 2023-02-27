@@ -1,16 +1,50 @@
 {
-  "home": [
-    {
-      "name": "demo1.jpeg",
-      "alt": "Alt text"
-    },
-    {
-      "name": "demo99.jpeg",
-      "alt": "Alt text"
-    },
-    {
-      "name": "demo2.jpeg",
-      "alt": "Alt text"
-    }
-  ]
+    "home": [
+        {
+            "name": "demo1.jpeg",
+            "alt": "Alt text"
+        },
+        {
+            "name": "demo99.jpeg",
+            "alt": "Alt text"
+        },
+        {
+            "name": "demo2.jpeg",
+            "alt": "Alt text"
+        }
+    ],
+    "gallery": [
+        {
+            "name": "221001_161737_vivid-symphony-photography_5493.jpg",
+            "alt": "Alt text"
+        },
+        {
+            "name": "221001_162720_vivid-symphony-photography_5678.jpg",
+            "alt": "Alt text"
+        },
+        {
+            "name": "221001_171432_vivid-symphony-photography_6341.jpg",
+            "alt": "Alt text"
+        },
+        {
+            "name": "Eibsee_58.jpg",
+            "alt": "Alt text"
+        },
+        {
+            "name": "Alsace-France-589.jpg",
+            "alt": "Alt text"
+        },
+        {
+            "name": "Alsace-France-612.jpg",
+            "alt": "Alt text"
+        },
+        {
+            "name": "CE6A8491-Edit.jpg",
+            "alt": "Alt text"
+        },
+        {
+            "name": "StySho_032020-041.jpg",
+            "alt": "Alt text"
+        }
+    ]
 }

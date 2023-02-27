@@ -9,16 +9,20 @@ function Home() {
   const images = assets[FOLDER_NAME].slice(0, MAX_IMAGES_TO_SHOW - 1).map(
     (file, index) => {
       return (
-        <Image path={`home/${file.name}`} key={index} className="w-full" />
+        <Image
+          path={`${FOLDER_NAME}/${file.name}`}
+          key={index}
+          className="w-full"
+        />
       );
     }
   );
 
   return (
-    <div className="container px-40 py-10">
+    <div className="container px-3 sm:px-12 lg:px-60 md:px-28 py-3 lg:py-10">
       <p className="text-center text-lg mb-10">
-        This site is under active reconstruction. Please bear with me as I get
-        it into shape!
+        This site is under active construction. Please bear with me as I get it
+        into shape!
       </p>
       <Slideshow>{images}</Slideshow>
       <p className="text-center text-3xl mb-5 italic font-serif">

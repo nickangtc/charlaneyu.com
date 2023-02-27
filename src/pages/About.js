@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
-const ABOUT_IMAGE = require("../assets/about/charlane-yu-makeup-artist-about.webp");
+import Image from "../components/Image";
 
 function About() {
   return (
-    <div className="container px-40 py-10">
+    <div className="container px-3 sm:px-12 lg:px-60 md:px-28 py-3 lg:py-10">
       <figure>
-        <img
-          src={ABOUT_IMAGE}
+        <Image
+          path="about/charlane-yu-makeup-artist-about.webp"
           alt="Charlane Yu drawing makeup with a brush on a bride"
         />
         <figcaption>
