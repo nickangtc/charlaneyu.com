@@ -18,20 +18,25 @@ const images = [
 
 function Gallery() {
   return (
-    <div className="container px-3 sm:px-12 lg:px-36 py-3 lg:py-10">
-      <ImageGallery
-        items={images}
-        infinite={true}
-        lazyLoad={true}
-        showNav={false}
-        showPlayButton={false}
-        showFullscreenButton={true}
-        showBullets={false}
-        showThumbnails={true}
-        useWindowKeyDown={true}
-      />
+    <div className="container px-40 py-10">
+      <p className="text-center">Coming soon!</p>
     </div>
   );
+  // return (
+  //   <div className="container px-3 sm:px-12 lg:px-36 py-3 lg:py-10">
+  //     <ImageGallery
+  //       items={images}
+  //       infinite={true}
+  //       lazyLoad={true}
+  //       showNav={false}
+  //       showPlayButton={false}
+  //       showFullscreenButton={true}
+  //       showBullets={false}
+  //       showThumbnails={true}
+  //       useWindowKeyDown={true}
+  //     />
+  //   </div>
+  // );
 }
 
 export default Gallery;

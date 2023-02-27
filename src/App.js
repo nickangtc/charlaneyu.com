@@ -5,6 +5,7 @@ import About from "./pages/About";
 import Home from "./pages/Home";
 import Blog from "./pages/Blog";
 import Gallery from "./pages/Gallery";
+import Contact from "./pages/Contact";
 
 function Header() {
   return (
@@ -22,9 +23,9 @@ function Nav() {
       <NavLink className="px-5 inline-block" to="/">
         Home
       </NavLink>
-      <NavLink className="px-5 inline-block" to="/blog">
+      {/* <NavLink className="px-5 inline-block" to="/blog">
         Blog
-      </NavLink>
+      </NavLink> */}
       <NavLink className="px-5 inline-block" to="/about">
         About
       </NavLink>
@@ -48,13 +49,13 @@ function Footer() {
   return (
     <div className="container-full text-center bg-slate-100 py-6">
       <a className="px-3" href="https://www.facebook.com/makeupcharlaneyu/">
-        FacebookLogo
+        Facebook
       </a>
       <a className="px-3" href="https://www.instagram.com/charlane_yu/">
-        IGLogo
+        Instagram
       </a>
       <p className="text-sm mt-3 text-stone-500">
-        Copyright 2022 Charlane Yu | Designed by Nick Ang
+        Copyright 2023 Charlane Yu | Designed by Nick Ang
       </p>
     </div>
   );
@@ -70,7 +71,7 @@ function App() {
 
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="blog" element={<Blog />} />
+          {/* <Route path="blog" element={<Blog />} /> */}
           <Route path="about" element={<About />} />
           <Route path="gallery" element={<Gallery />} />
           <Route
@@ -86,12 +87,12 @@ function App() {
   );
 }
 
-function Contact() {
-  return <p>Contact form</p>;
-}
-
 function Destinations() {
-  return <p>Oh this one has a dropdown menu... what to show here?</p>;
+  return (
+    <div className="container px-40 py-10">
+      <p className="text-center">Also coming soon!</p>
+    </div>
+  );
 }
 
 export default App;

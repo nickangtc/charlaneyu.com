@@ -15,7 +15,11 @@ function Home() {
   );
 
   return (
-    <div className="container pl-4 pr-4">
+    <div className="container px-40 py-10">
+      <p className="text-center text-lg mb-10">
+        This site is under active reconstruction. Please bear with me as I get
+        it into shape!
+      </p>
       <Slideshow>{images}</Slideshow>
       <p className="text-center text-3xl mb-5 italic font-serif">
         Love of beauty is taste. The creation of beauty is art.
