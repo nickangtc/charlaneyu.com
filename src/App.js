@@ -16,29 +16,28 @@ function Header() {
   );
 }
 
-// TODO: Make this component stack on mobile
 function Nav() {
   return (
-    <nav className="flex flex-row justify-center border-2 border-l-0 border-r-0 min-h-full pt-3 pb-3">
-      <NavLink className="px-5 inline-block" to="/">
+    <nav className="flex flex-row flex-wrap justify-center border-2 border-l-0 border-r-0 min-h-full pt-3 pb-3">
+      <NavLink className="px-4 inline-block" to="/">
         Home
       </NavLink>
-      {/* <NavLink className="px-5 inline-block" to="/blog">
+      {/* <NavLink className="px-4 inline-block" to="/blog">
         Blog
       </NavLink> */}
-      <NavLink className="px-5 inline-block" to="/about">
+      <NavLink className="px-4 inline-block" to="/about">
         About
       </NavLink>
-      <NavLink className="px-5 inline-block" to="/gallery">
+      <NavLink className="px-4 inline-block" to="/gallery">
         Gallery
       </NavLink>
       <NavLink
-        className="px-5 inline-block"
+        className="px-4 inline-block"
         to="/destinations-weddings-photoshoots"
       >
         Destinations
       </NavLink>
-      <NavLink className="px-5 inline-block" to="/contact">
+      <NavLink className="px-4 inline-block" to="/contact">
         Contact
       </NavLink>
     </nav>
