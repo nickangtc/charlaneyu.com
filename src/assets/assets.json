@@ -13,7 +13,7 @@
             "alt": "Alt text"
         }
     ],
-    "gallery": [
+    "destinations": [
         {
             "name": "221001_161737_vivid-symphony-photography_5493.jpg",
             "alt": "Alt text"
@@ -41,10 +41,32 @@
         {
             "name": "CE6A8491-Edit.jpg",
             "alt": "Alt text"
+        }
+    ],
+    "gallery": [
+        {
+            "name": "2017_03_26_17_19_18_mh1490755289944.jpg",
+            "alt": "2017_03_26_17_19_18_mh1490755289944.jpg"
         },
         {
-            "name": "StySho_032020-041.jpg",
-            "alt": "Alt text"
+            "name": "20190603_073819-01.jpeg",
+            "alt": "20190603_073819-01.jpeg"
+        },
+        {
+            "name": "DSC05938_mr1561210678214-01.jpeg",
+            "alt": "DSC05938_mr1561210678214-01.jpeg"
+        },
+        {
+            "name": "DSCF9786-01_mh1483889596008-768x1024.jpg",
+            "alt": "DSCF9786-01_mh1483889596008-768x1024.jpg"
+        },
+        {
+            "name": "goMeihuaTemp_mh1490831116269.jpg",
+            "alt": "goMeihuaTemp_mh1490831116269.jpg"
+        },
+        {
+            "name": "IMG_20170211_170533_510-819x1024.jpg",
+            "alt": "IMG_20170211_170533_510-819x1024.jpg"
         }
     ]
 }

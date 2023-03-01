@@ -5,6 +5,7 @@ import About from "./pages/About";
 import Home from "./pages/Home";
 import Gallery from "./pages/Gallery";
 import Contact from "./pages/Contact";
+import Destinations from "./pages/Destinations";
 
 function Header() {
   return (
@@ -77,14 +78,6 @@ function App() {
       </div>
 
       <Footer />
-    </div>
-  );
-}
-
-function Destinations() {
-  return (
-    <div className="container px-40 py-10">
-      <p className="text-center">Coming soon: galleries per destination!</p>
     </div>
   );
 }

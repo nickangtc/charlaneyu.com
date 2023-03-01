@@ -3,7 +3,7 @@ import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
 
 const MAX_IMAGES_TO_SHOW = 30;
-const FOLDER_NAME = "gallery";
+const FOLDER_NAME = "destinations";
 
 const images = assets[FOLDER_NAME].slice(0, MAX_IMAGES_TO_SHOW - 1).map(
   (file) => {
@@ -11,18 +11,14 @@ const images = assets[FOLDER_NAME].slice(0, MAX_IMAGES_TO_SHOW - 1).map(
     return {
       original: img,
       thumbnail: img,
-      loading: "lazy",
+      load: "lazy",
     };
   }
 );
 
-// TODO: Fix sizes to be smaller than viewport height for better viewing experience
-function Gallery() {
+function Destinations() {
   return (
     <div className="container px-3 sm:px-12 lg:px-60 md:px-28 py-3 lg:py-10">
-      <p className="text-center text-md mb-5">
-        <em>(More photos will be added in the coming days!)</em>
-      </p>
       <ImageGallery
         items={images}
         infinite={true}
@@ -38,4 +34,4 @@ function Gallery() {
   );
 }
 
-export default Gallery;
+export default Destinations;
