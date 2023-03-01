@@ -20,9 +20,11 @@ function Home() {
 
   return (
     <div className="container px-3 sm:px-12 lg:px-60 md:px-28 py-3 lg:py-10">
-      <p className="text-center text-lg mb-10">
-        This site is under active construction. Please bear with me as I get it
-        into shape!
+      <p className="text-center text-md my-5">
+        <em>
+          This site is under active construction. Please bear with me as I get
+          it into shape!
+        </em>
       </p>
       <Slideshow>{images}</Slideshow>
       <p className="text-center text-3xl mb-5 italic font-serif">

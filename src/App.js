@@ -3,7 +3,6 @@ import { Routes, Route, NavLink } from "react-router-dom";
 import "./App.css";
 import About from "./pages/About";
 import Home from "./pages/Home";
-// import Blog from "./pages/Blog";
 import Gallery from "./pages/Gallery";
 import Contact from "./pages/Contact";
 
@@ -22,9 +21,6 @@ function Nav() {
       <NavLink className="px-4 inline-block" to="/">
         Home
       </NavLink>
-      {/* <NavLink className="px-4 inline-block" to="/blog">
-        Blog
-      </NavLink> */}
       <NavLink className="px-4 inline-block" to="/about">
         About
       </NavLink>
@@ -70,14 +66,13 @@ function App() {
 
         <Routes>
           <Route path="/" element={<Home />} />
-          {/* <Route path="blog" element={<Blog />} /> */}
-          <Route path="about" element={<About />} />
-          <Route path="gallery" element={<Gallery />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/gallery" element={<Gallery />} />
           <Route
-            path="destinations-weddings-photoshoots"
+            path="/destinations-weddings-photoshoots"
             element={<Destinations />}
           />
-          <Route path="contact" element={<Contact />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
 
