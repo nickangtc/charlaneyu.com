@@ -1,29 +1,29 @@
-import assets from "../assets/assets.json";
-import ImageGallery from "react-image-gallery";
+// import assets from "../assets/assets.json";
+// import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
 
-const MAX_IMAGES_TO_SHOW = 30;
-const FOLDER_NAME = "gallery";
+// const MAX_IMAGES_TO_SHOW = 30;
+// const FOLDER_NAME = "gallery";
 
-const images = assets[FOLDER_NAME].slice(0, MAX_IMAGES_TO_SHOW - 1).map(
-  (file) => {
-    const img = require(`../assets/${FOLDER_NAME}/${file.name}`);
-    return {
-      original: img,
-      thumbnail: img,
-      loading: "lazy",
-    };
-  }
-);
+// const images = assets[FOLDER_NAME].slice(0, MAX_IMAGES_TO_SHOW - 1).map(
+//   (file) => {
+//     const img = require(`../assets/${FOLDER_NAME}/${file.name}`);
+//     return {
+//       original: img,
+//       thumbnail: img,
+//       loading: "lazy",
+//     };
+//   }
+// );
 
 // TODO: Fix sizes to be smaller than viewport height for better viewing experience
 function Gallery() {
   return (
     <div className="container px-3 sm:px-12 lg:px-60 md:px-28 py-3 lg:py-10">
       <p className="text-center text-md mb-5">
-        <em>(More photos will be added in the coming days!)</em>
+        <em>Coming soon</em>
       </p>
-      <ImageGallery
+      {/* <ImageGallery
         items={images}
         infinite={true}
         lazyLoad={true}
@@ -33,7 +33,7 @@ function Gallery() {
         showBullets={false}
         showThumbnails={true}
         useWindowKeyDown={true}
-      />
+      /> */}
     </div>
   );
 }
