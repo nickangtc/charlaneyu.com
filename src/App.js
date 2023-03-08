@@ -11,7 +11,9 @@ function Header() {
   return (
     <header className="p-5">
       <h1 className="text-center mb-0">Charlane Yu</h1>
-      <p className="text-center font-thin">Makeup & Hairstyling Berlin</p>
+      <p className="text-center font-thin">
+        Asian Makeup & Hairstyling Artist Berlin
+      </p>
     </header>
   );
 }

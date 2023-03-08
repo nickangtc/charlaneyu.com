@@ -3,7 +3,7 @@ import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
 import "./Gallery.css";
 
-const MAX_IMAGES_TO_SHOW = 30;
+const MAX_IMAGES_TO_SHOW = 100;
 const FOLDER_NAME = "gallery";
 
 const images = assets[FOLDER_NAME].slice(0, MAX_IMAGES_TO_SHOW - 1).map(
@@ -31,7 +31,7 @@ function Gallery() {
         showBullets={false}
         showThumbnails={true}
         useWindowKeyDown={true}
-        additionalClass="image-gallery"
+        additionalClass="image-gallery-portrait"
       />
     </div>
   );

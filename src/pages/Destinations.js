@@ -18,7 +18,7 @@ const images = assets[FOLDER_NAME].slice(0, MAX_IMAGES_TO_SHOW - 1).map(
 
 function Destinations() {
   return (
-    <div className="container px-3 sm:px-12 lg:px-60 md:px-28 py-3 lg:py-10">
+    <div className="container px-3 sm:px-12 lg:px-48 md:px-28 py-3 lg:py-10">
       <ImageGallery
         items={images}
         infinite={true}
@@ -29,6 +29,7 @@ function Destinations() {
         showBullets={false}
         showThumbnails={true}
         useWindowKeyDown={true}
+        additionalClass="image-gallery-landscape"
       />
     </div>
   );

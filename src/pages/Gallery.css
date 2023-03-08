@@ -1,5 +1,11 @@
-.image-gallery {
+.image-gallery-portrait {
   margin: 0 auto;
   max-width: 400px;
+  height: auto;
+}
+
+.image-gallery-landscape {
+  margin: 0 auto;
+  max-width: 900px;
   height: auto;
 }
