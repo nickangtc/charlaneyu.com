@@ -12,7 +12,7 @@ function Header() {
     <header className="p-5">
       <h1 className="text-center mb-0">Charlane Yu</h1>
       <p className="text-center font-thin">
-        Asian Makeup & Hairstyling Artist Berlin
+        Asian Makeup Artist & Hairstylist Düsseldorf 
       </p>
     </header>
   );
@@ -53,7 +53,7 @@ function Footer() {
         Instagram
       </a>
       <p className="text-sm mt-3 text-stone-500">
-        Copyright 2023 Charlane Yu | Designed by Nick Ang
+        Copyright 2024 Charlane Yu | Designed by Nick Ang
       </p>
     </div>
   );
