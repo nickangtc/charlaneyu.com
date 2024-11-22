@@ -1,304 +1,264 @@
 {
-    "home": [
-        {
-            "name": "demo1.jpeg",
-            "alt": "Alt "
-        },
-        {
-            "name": "demo99.jpeg",
-            "alt": "Alt "
-        },
-        {
-            "name": "demo2.jpeg",
-            "alt": "Alt text"
-        }
-    ],
-    "destinations": [
-        {
-            "name": "221001_161737_vivid-symphony-photography_5493.jpg",
-            "alt": "Alt text"
-        },
-        {
-            "name": "221001_162720_vivid-symphony-photography_5678.jpg",
-            "alt": "Alt text"
-        },
-        {
-            "name": "221001_171432_vivid-symphony-photography_6341.jpg",
-            "alt": "Alt text"
-        },
-        {
-            "name": "Eibsee_58.jpg",
-            "alt": "Alt text"
-        },
-        {
-            "name": "Alsace-France-589.jpg",
-            "alt": "Alt text"
-        },
-        {
-            "name": "Alsace-France-612.jpg",
-            "alt": "Alt text"
-        },
-        {
-            "name": "CE6A8491-Edit.jpg",
-            "alt": "Alt text"
-        }
-    ],
-    "gallery": [
-        {
-            "name": "charlane_yu_makeup_artist_2.jpg",
-            "alt": "charlane_yu_makeup_artist_2"
-        },
-        {
-            "name": "charlane_yu_makeup_artist_28.jpg",
-            "alt": "charlane_yu_makeup_artist_28."
-        },
-        {
-            "name": "charlane_yu_makeup_artist_3.jpg",
-            "alt": "charlane_yu_makeup_artist_3"
-        },
-        {
-            "name": "charlane_yu_makeup_artist_4.jpg",
-            "alt": "charlane_yu_makeup_artist_4"
-        },
-        {
-            "name": "charlane_yu_makeup_artist_6.jpg",
-            "alt": "charlane_yu_makeup_artist_6"
-        },
-        {
-            "name": "charlane_yu_makeup_artist_8.jpg",
-            "alt": "charlane_yu_makeup_artist_8"
-        },
-        {
-            "name": "charlane_yu_makeup_artist_12.jpg",
-            "alt": "charlane_yu_makeup_artist_12."
-        },
-        {
-            "name": "charlane_yu_makeup_artist_41.jpg",
-            "alt": "charlane_yu_makeup_artist_41."
-        },
-        {
-            "name": "charlane_yu_makeup_artist_45.jpg",
-            "alt": "charlane_yu_makeup_artist_45"
-        },
-        {
-            "name": "charlane_yu_makeup_artist_49.jpg",
-            "alt": "charlane_yu_makeup_artist_49"
-        },
-        {
-            "name": "charlane_yu_makeup_artist_1.jpg",
-            "alt": "charlane_yu_makeup_artist_1"
-        },
-        {
-            "name": "charlane_yu_makeup_artist_5.jpg",
-            "alt": "charlane_yu_makeup_artist_5"
-        },
-        {
-            "name": "charlane_yu_makeup_artist_7.jpg",
-            "alt": "charlane_yu_makeup_artist_7."
-        },
-        {
-            "name": "charlane_yu_makeup_artist_9.jpg",
-            "alt": "charlane_yu_makeup_artist_9"
-        },
-        {
-            "name": "charlane_yu_makeup_artist_10.jpg",
-            "alt": "charlane_yu_makeup_artist_10"
-        },
-        {
-            "name": "charlane_yu_makeup_artist_11.jpg",
-            "alt": "charlane_yu_makeup_artist_11."
-        },
-        {
-            "name": "charlane_yu_makeup_artist_13.jpg",
-            "alt": "charlane_yu_makeup_artist_13."
-        },
-        {
-            "name": "charlane_yu_makeup_artist_14.jpg",
-            "alt": "charlane_yu_makeup_artist_14"
-        },
-        {
-            "name": "charlane_yu_makeup_artist_15.jpg",
-            "alt": "charlane_yu_makeup_artist_15"
-        },
-        {
-            "name": "charlane_yu_makeup_artist_16.jpg",
-            "alt": "charlane_yu_makeup_artist_16"
-        },
-        {
-            "name": "charlane_yu_makeup_artist_17.jpg",
-            "alt": "charlane_yu_makeup_artist_17"
-        },
-        {
-            "name": "charlane_yu_makeup_artist_18.jpg",
-            "alt": "charlane_yu_makeup_artist_18"
-        },
-        {
-            "name": "charlane_yu_makeup_artist_19.jpg",
-            "alt": "charlane_yu_makeup_artist_19"
-        },
-        {
-            "name": "charlane_yu_makeup_artist_20.jpg",
-            "alt": "charlane_yu_makeup_artist_20"
-        },
-        {
-            "name": "charlane_yu_makeup_artist_21.jpg",
-            "alt": "charlane_yu_makeup_artist_21"
-        },
-        {
-            "name": "charlane_yu_makeup_artist_22.jpg",
-            "alt": "charlane_yu_makeup_artist_22"
-        },
-        {
-            "name": "charlane_yu_makeup_artist_23.jpg",
-            "alt": "charlane_yu_makeup_artist_23."
-        },
-        {
-            "name": "charlane_yu_makeup_artist_24.jpg",
-            "alt": "charlane_yu_makeup_artist_24"
-        },
-        {
-            "name": "charlane_yu_makeup_artist_25.jpg",
-            "alt": "charlane_yu_makeup_artist_25"
-        },
-        {
-            "name": "charlane_yu_makeup_artist_26.jpg",
-            "alt": "charlane_yu_makeup_artist_26."
-        },
-        {
-            "name": "charlane_yu_makeup_artist_27.jpg",
-            "alt": "charlane_yu_makeup_artist_27"
-        },
-        {
-            "name": "charlane_yu_makeup_artist_29.jpg",
-            "alt": "charlane_yu_makeup_artist_29"
-        },
-        {
-            "name": "charlane_yu_makeup_artist_30.jpg",
-            "alt": "charlane_yu_makeup_artist_30"
-        },
-        {
-            "name": "charlane_yu_makeup_artist_31.jpg",
-            "alt": "charlane_yu_makeup_artist_31."
-        },
-        {
-            "name": "charlane_yu_makeup_artist_32.jpg",
-            "alt": "charlane_yu_makeup_artist_32"
-        },
-        {
-            "name": "charlane_yu_makeup_artist_33.jpg",
-            "alt": "charlane_yu_makeup_artist_33"
-        },
-        {
-            "name": "charlane_yu_makeup_artist_34.jpg",
-            "alt": "charlane_yu_makeup_artist_34"
-        },
-        {
-            "name": "charlane_yu_makeup_artist_35.jpg",
-            "alt": "charlane_yu_makeup_artist_35"
-        },
-        {
-            "name": "charlane_yu_makeup_artist_36.jpg",
-            "alt": "charlane_yu_makeup_artist_36"
-        },
-        {
-            "name": "charlane_yu_makeup_artist_37.jpg",
-            "alt": "charlane_yu_makeup_artist_37"
-        },
-        {
-            "name": "charlane_yu_makeup_artist_38.jpg",
-            "alt": "charlane_yu_makeup_artist_38"
-        },
-        {
-            "name": "charlane_yu_makeup_artist_39.jpg",
-            "alt": "charlane_yu_makeup_artist_39."
-        },
-        {
-            "name": "charlane_yu_makeup_artist_40.jpg",
-            "alt": "charlane_yu_makeup_artist_40."
-        },
-        {
-            "name": "charlane_yu_makeup_artist_42.jpg",
-            "alt": "charlane_yu_makeup_artist_42"
-        },
-        {
-            "name": "charlane_yu_makeup_artist_43.jpg",
-            "alt": "charlane_yu_makeup_artist_43"
-        },
-        {
-            "name": "charlane_yu_makeup_artist_44.jpg",
-            "alt": "charlane_yu_makeup_artist_44"
-        },
-        {
-            "name": "charlane_yu_makeup_artist_46.jpg",
-            "alt": "charlane_yu_makeup_artist_46"
-        },
-        {
-            "name": "charlane_yu_makeup_artist_47.jpg",
-            "alt": "charlane_yu_makeup_artist_47"
-        },
-        {
-            "name": "charlane_yu_makeup_artist_48.jpg",
-            "alt": "charlane_yu_makeup_artist_48"
-        },
-        {
-            "name": "charlane_yu_makeup_artist_50.jpg",
-            "alt": "charlane_yu_makeup_artist_50"
-        },
-        {
-            "name": "charlane_yu_makeup_artist_51.jpg",
-            "alt": "charlane_yu_makeup_artist_51"
-        },
-        {
-            "name": "charlane_yu_makeup_artist_52.jpg",
-            "alt": "charlane_yu_makeup_artist_52"
-        },
-        {
-            "name": "charlane_yu_makeup_artist_53.jpg",
-            "alt": "charlane_yu_makeup_artist_53"
-        },
-        {
-            "name": "charlane_yu_makeup_artist_54.jpg",
-            "alt": "charlane_yu_makeup_artist_54"
-        },
-        {
-            "name": "charlane_yu_makeup_artist_55.jpg",
-            "alt": "charlane_yu_makeup_artist_55"
-        },
-        {
-            "name": "charlane_yu_makeup_artist_56.jpg",
-            "alt": "charlane_yu_makeup_artist_56"
-        },
-        {
-            "name": "charlane_yu_makeup_artist_57.jpg",
-            "alt": "charlane_yu_makeup_artist_57"
-        },
-        {
-            "name": "charlane_yu_makeup_artist_58.jpg",
-            "alt": "charlane_yu_makeup_artist_58"
-        },
-        {
-            "name": "charlane_yu_makeup_artist_59.jpg",
-            "alt": "charlane_yu_makeup_artist_59"
-        },
-        {
-            "name": "charlane_yu_makeup_artist_60.jpg",
-            "alt": "charlane_yu_makeup_artist_60"
-        },
-        {
-            "name": "charlane_yu_makeup_artist_61.jpg",
-            "alt": "charlane_yu_makeup_artist_61"
-        },
-        {
-            "name": "charlane_yu_makeup_artist_62.jpg",
-            "alt": "charlane_yu_makeup_artist_62"
-        },
-        {
-            "name": "charlane_yu_makeup_artist_63.jpg",
-            "alt": "charlane_yu_makeup_artist_63"
-        },
-        {
-            "name": "charlane_yu_makeup_artist_64.jpg",
-            "alt": "charlane_yu_makeup_artist_64"
-        }
-    ]
+  "home": [
+    {
+      "name": "demo1.jpeg",
+      "alt": "Alt "
+    },
+    {
+      "name": "demo99.jpeg",
+      "alt": "Alt "
+    },
+    {
+      "name": "demo2.jpeg",
+      "alt": "Alt text"
+    }
+  ],
+  "destinations": [
+    {
+      "name": "upload_241120_10.jpeg",
+      "alt": "charlane_yu_makeup_result_upload_241120_10.jpeg"
+    },
+    {
+      "name": "upload_241120_13.jpeg",
+      "alt": "charlane_yu_makeup_result_upload_241120_13.jpeg"
+    },
+    {
+      "name": "upload_241120_14.jpeg",
+      "alt": "charlane_yu_makeup_result_upload_241120_14.jpeg"
+    },
+    {
+      "name": "upload_241120_15.jpeg",
+      "alt": "charlane_yu_makeup_result_upload_241120_15.jpeg"
+    },
+    {
+      "name": "upload_241120_18.jpeg",
+      "alt": "charlane_yu_makeup_result_upload_241120_18.jpeg"
+    },
+    {
+      "name": "upload_241120_19.jpeg",
+      "alt": "charlane_yu_makeup_result_upload_241120_19.jpeg"
+    },
+    {
+      "name": "upload_241120_22.jpeg",
+      "alt": "charlane_yu_makeup_result_upload_241120_22.jpeg"
+    },
+    {
+      "name": "upload_241120_23.jpeg",
+      "alt": "charlane_yu_makeup_result_upload_241120_23.jpeg"
+    },
+    {
+      "name": "upload_241120_24.jpeg",
+      "alt": "charlane_yu_makeup_result_upload_241120_24.jpeg"
+    },
+    {
+      "name": "CE6A9572-Edit.jpg",
+      "alt": "charlane_yu_makeup_result_CE6A9572-Edit.jpg"
+    },
+    {
+      "name": "upload_241120_25.jpeg",
+      "alt": "charlane_yu_makeup_result_upload_241120_25.jpeg"
+    },
+    {
+      "name": "upload_241120_26.jpeg",
+      "alt": "charlane_yu_makeup_result_upload_241120_26.jpeg"
+    },
+    {
+      "name": "upload_241120_30.jpeg",
+      "alt": "charlane_yu_makeup_result_upload_241120_30.jpeg"
+    },
+    {
+      "name": "upload_241120_31.jpeg",
+      "alt": "charlane_yu_makeup_result_upload_241120_31.jpeg"
+    },
+    {
+      "name": "upload_241120_32.jpeg",
+      "alt": "charlane_yu_makeup_result_upload_241120_32.jpeg"
+    },
+    {
+      "name": "221001_171432_vivid-symphony-photography_6341.jpg",
+      "alt": "charlane_yu_makeup_result_221001_171432_vivid-symphony-photography_6341.jpg"
+    },
+    {
+      "name": "CE6A0323-Edit.jpg",
+      "alt": "charlane_yu_makeup_result_CE6A0323-Edit.jpg"
+    },
+    {
+      "name": "CE6A8491-Edit.jpg",
+      "alt": "charlane_yu_makeup_result_CE6A8491-Edit.jpg"
+    },
+    {
+      "name": "upload_241120_6.jpeg",
+      "alt": "charlane_yu_makeup_result_upload_241120_6.jpeg"
+    },
+    {
+      "name": "upload_241120_7.jpeg",
+      "alt": "charlane_yu_makeup_result_upload_241120_7.jpeg"
+    },
+    {
+      "name": "upload_241120_8.jpeg",
+      "alt": "charlane_yu_makeup_result_upload_241120_8.jpeg"
+    },
+    {
+      "name": "upload_241120_9.jpeg",
+      "alt": "charlane_yu_makeup_result_upload_241120_9.jpeg"
+    }
+  ],
+  "gallery": [
+    {
+      "name": "upload_241120_27.jpeg",
+      "alt": "charlane_yu_makeup_result_upload_241120_27.jpeg"
+    },
+    {
+      "name": "upload_241120_28.jpeg",
+      "alt": "charlane_yu_makeup_result_upload_241120_28.jpeg"
+    },
+    {
+      "name": "upload_241120_29.jpeg",
+      "alt": "charlane_yu_makeup_result_upload_241120_29.jpeg"
+    },
+    {
+      "name": "upload_241120_3.jpeg",
+      "alt": "charlane_yu_makeup_result_upload_241120_3.jpeg"
+    },
+    {
+      "name": "upload_241120_4.jpeg",
+      "alt": "charlane_yu_makeup_result_upload_241120_4.jpeg"
+    },
+    {
+      "name": "upload_241120_5.jpeg",
+      "alt": "charlane_yu_makeup_result_upload_241120_5.jpeg"
+    },
+    {
+      "name": "charlane_yu_makeup_artist_10.jpg",
+      "alt": "charlane_yu_makeup_result_charlane_yu_makeup_artist_10.jpg"
+    },
+    {
+      "name": "upload_241120_11.jpeg",
+      "alt": "charlane_yu_makeup_result_upload_241120_11.jpeg"
+    },
+    {
+      "name": "upload_241120_12.jpeg",
+      "alt": "charlane_yu_makeup_result_upload_241120_12.jpeg"
+    },
+    {
+      "name": "upload_241120_16.jpeg",
+      "alt": "charlane_yu_makeup_result_upload_241120_16.jpeg"
+    },
+    {
+      "name": "upload_241120_17.jpeg",
+      "alt": "charlane_yu_makeup_result_upload_241120_17.jpeg"
+    },
+    {
+      "name": "upload_241120_2.jpeg",
+      "alt": "charlane_yu_makeup_result_upload_241120_2.jpeg"
+    },
+    {
+      "name": "upload_241120_20.jpeg",
+      "alt": "charlane_yu_makeup_result_upload_241120_20.jpeg"
+    },
+    {
+      "name": "upload_241120_21.jpeg",
+      "alt": "charlane_yu_makeup_result_upload_241120_21.jpeg"
+    },
+    {
+      "name": "upload_241120_1.jpeg",
+      "alt": "charlane_yu_makeup_result_upload_241120_1.jpeg"
+    },
+    {
+      "name": "charlane_yu_makeup_artist_12.jpg",
+      "alt": "charlane_yu_makeup_result_charlane_yu_makeup_artist_12.jpg"
+    },
+    {
+      "name": "charlane_yu_makeup_artist_13.jpg",
+      "alt": "charlane_yu_makeup_result_charlane_yu_makeup_artist_13.jpg"
+    },
+    {
+      "name": "charlane_yu_makeup_artist_14.jpg",
+      "alt": "charlane_yu_makeup_result_charlane_yu_makeup_artist_14.jpg"
+    },
+    {
+      "name": "charlane_yu_makeup_artist_17.jpg",
+      "alt": "charlane_yu_makeup_result_charlane_yu_makeup_artist_17.jpg"
+    },
+    {
+      "name": "charlane_yu_makeup_artist_2.jpg",
+      "alt": "charlane_yu_makeup_result_charlane_yu_makeup_artist_2.jpg"
+    },
+    {
+      "name": "charlane_yu_makeup_artist_26.jpg",
+      "alt": "charlane_yu_makeup_result_charlane_yu_makeup_artist_26.jpg"
+    },
+    {
+      "name": "charlane_yu_makeup_artist_28.jpg",
+      "alt": "charlane_yu_makeup_result_charlane_yu_makeup_artist_28.jpg"
+    },
+    {
+      "name": "charlane_yu_makeup_artist_3.jpg",
+      "alt": "charlane_yu_makeup_result_charlane_yu_makeup_artist_3.jpg"
+    },
+    {
+      "name": "charlane_yu_makeup_artist_34.jpg",
+      "alt": "charlane_yu_makeup_result_charlane_yu_makeup_artist_34.jpg"
+    },
+    {
+      "name": "charlane_yu_makeup_artist_35.jpg",
+      "alt": "charlane_yu_makeup_result_charlane_yu_makeup_artist_35.jpg"
+    },
+    {
+      "name": "charlane_yu_makeup_artist_39.jpg",
+      "alt": "charlane_yu_makeup_result_charlane_yu_makeup_artist_39.jpg"
+    },
+    {
+      "name": "charlane_yu_makeup_artist_4.jpg",
+      "alt": "charlane_yu_makeup_result_charlane_yu_makeup_artist_4.jpg"
+    },
+    {
+      "name": "charlane_yu_makeup_artist_41.jpg",
+      "alt": "charlane_yu_makeup_result_charlane_yu_makeup_artist_41.jpg"
+    },
+    {
+      "name": "charlane_yu_makeup_artist_43.jpg",
+      "alt": "charlane_yu_makeup_result_charlane_yu_makeup_artist_43.jpg"
+    },
+    {
+      "name": "charlane_yu_makeup_artist_45.jpg",
+      "alt": "charlane_yu_makeup_result_charlane_yu_makeup_artist_45.jpg"
+    },
+    {
+      "name": "charlane_yu_makeup_artist_49.jpg",
+      "alt": "charlane_yu_makeup_result_charlane_yu_makeup_artist_49.jpg"
+    },
+    {
+      "name": "charlane_yu_makeup_artist_5.jpg",
+      "alt": "charlane_yu_makeup_result_charlane_yu_makeup_artist_5.jpg"
+    },
+    {
+      "name": "charlane_yu_makeup_artist_51.jpg",
+      "alt": "charlane_yu_makeup_result_charlane_yu_makeup_artist_51.jpg"
+    },
+    {
+      "name": "charlane_yu_makeup_artist_53.jpg",
+      "alt": "charlane_yu_makeup_result_charlane_yu_makeup_artist_53.jpg"
+    },
+    {
+      "name": "charlane_yu_makeup_artist_57.jpg",
+      "alt": "charlane_yu_makeup_result_charlane_yu_makeup_artist_57.jpg"
+    },
+    {
+      "name": "charlane_yu_makeup_artist_6.jpg",
+      "alt": "charlane_yu_makeup_result_charlane_yu_makeup_artist_6.jpg"
+    },
+    {
+      "name": "charlane_yu_makeup_artist_7.jpg",
+      "alt": "charlane_yu_makeup_result_charlane_yu_makeup_artist_7.jpg"
+    },
+    {
+      "name": "charlane_yu_makeup_artist_8.jpg",
+      "alt": "charlane_yu_makeup_result_charlane_yu_makeup_artist_8.jpg"
+    },
+    {
+      "name": "charlane_yu_makeup_artist_9.jpg",
+      "alt": "charlane_yu_makeup_result_charlane_yu_makeup_artist_9.jpg"
+    }
+  ]
 }

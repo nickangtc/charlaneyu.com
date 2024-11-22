@@ -6,7 +6,7 @@ function About() {
     <div className="container px-3 sm:px-12 lg:px-60 md:px-28 py-3 lg:py-10">
       <figure>
         <Image
-          path="about/charlane-yu-makeup-artist-about.webp"
+          path="about/charlane_yu_makeup_artist_self_at_work_4.jpeg"
           alt="Charlane Yu drawing makeup with a brush on a bride"
         />
         <figcaption>
@@ -19,7 +19,7 @@ function About() {
 
       <h1>
         Hey! I'm Charlane Yu, a professional makeup artist from Singapore
-        currently based in Berlin, Germany.
+        currently based in Düsseldorf, Germany.
       </h1>
 
       <p>
